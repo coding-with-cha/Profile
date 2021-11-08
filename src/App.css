@@ -1,38 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;1,500&family=Dancing+Script&family=Playfair+Display&family=Roboto:wght@100&display=swap');
 .App {
-  text-align: center;
+  width: 800px;
+  height: 370px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(to bottom right, rgba(22, 22, 148, 0.384), rgba(202, 165, 42, 0.589));
+  border-radius: 50px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.info{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  width: 370px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8%;
+  font-family: 'Cormorant', serif;
+  font-weight: lighter;
+  font-size: 20px;
+  letter-spacing: 7px;
+  word-spacing: 10px;
+  color: rgb(65, 64, 64);
 }
